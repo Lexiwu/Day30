@@ -34,5 +34,37 @@
   {
     "outputFile": "styles/work.css",
     "inputFile": "styles/work.scss"
+  },
+  {
+    "outputFile": "styles/testimonials/testimonials.css",
+    "inputFile": "styles/testimonials/testimonials.scss"
+  },
+  {
+    "outputFile": "styles/expertise/expertise.css",
+    "inputFile": "styles/expertise/expertise.scss"
+  },
+  {
+    "outputFile": "styles/navbar/navbar.css",
+    "inputFile": "styles/navbar/navbar.scss"
+  },
+  {
+    "outputFile": "styles/navbar/story.css",
+    "inputFile": "styles/navbar/story.scss"
+  },
+  {
+    "outputFile": "styles/navbar/top-background.css",
+    "inputFile": "styles/navbar/top-background.scss"
+  },
+  {
+    "outputFile": "styles/team/team.css",
+    "inputFile": "styles/team/team.scss"
+  },
+  {
+    "outputFile": "styles/vedio/playvedio.css",
+    "inputFile": "styles/vedio/playvedio.scss"
+  },
+  {
+    "outputFile": "styles/work/work.css",
+    "inputFile": "styles/work/work.scss"
   }
 ]
