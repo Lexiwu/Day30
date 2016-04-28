@@ -30,5 +30,9 @@
   {
     "outputFile": "styles/team.css",
     "inputFile": "styles/team.scss"
+  },
+  {
+    "outputFile": "styles/work.css",
+    "inputFile": "styles/work.scss"
   }
 ]
