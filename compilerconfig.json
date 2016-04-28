@@ -1,0 +1,34 @@
+﻿[
+  {
+    "outputFile": "styles/StyleSheet.css",
+    "inputFile": "styles/StyleSheet.scss"
+  },
+  {
+    "outputFile": "styles/index-layout.css",
+    "inputFile": "styles/index-layout.scss"
+  },
+  {
+    "outputFile": "styles/navbar.css",
+    "inputFile": "styles/navbar.scss"
+  },
+  {
+    "outputFile": "styles/top-background.css",
+    "inputFile": "styles/top-background.scss"
+  },
+  {
+    "outputFile": "styles/story.css",
+    "inputFile": "styles/story.scss"
+  },
+  {
+    "outputFile": "styles/playvedio.css",
+    "inputFile": "styles/playvedio.scss"
+  },
+  {
+    "outputFile": "styles/expertise.css",
+    "inputFile": "styles/expertise.scss"
+  },
+  {
+    "outputFile": "styles/team.css",
+    "inputFile": "styles/team.scss"
+  }
+]

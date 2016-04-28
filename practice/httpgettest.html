@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    
+
+    
+
+</head>
+<body>
+
+    <input type="button" value="click" onclick="gettest()" />
+    <div id="result">
+
+    </div>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script>
+       function gettest(){
+           var result = document.getElementById('result');
+           $.get("http://www.mocky.io/v2/5720d4520f0000630b38730f", function (data) {
+               
+               result.innerHTML = data;
+
+           })
+           
+       }
+
+    </script>
+</body>
+</html>

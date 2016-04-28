@@ -1,0 +1,81 @@
+﻿body{
+
+    .navbar{
+        height:86px;  //navbar的高度
+        width:1600px;
+
+    }
+        .logo{
+            position:relative;
+            top:36px;
+            left:331px;
+        }
+        .learnmore{
+            width:120px;
+            height:40px;
+            position:relative;
+            top:80px;
+            margin:auto;
+
+        }
+
+        /* .button1{
+            position:absolute;
+            top:423px;
+            left:740px;
+        } */
+         .dotnav{
+            position:relative;
+            top:70px;
+            left:30px;
+        }
+     
+        ul {
+            list-style-type: none;
+            position:absolute;
+            top:45px;
+            right:500px;
+            overflow: hidden;
+            margin:0;
+            padding:0;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        li {
+            float: left;
+        }
+        li a{
+            color:#ffF;
+            display: block;
+            padding: 10px;
+            text-decoration:none;
+        }
+        li a:hover:not(#active) {
+                color:aqua;
+            }
+        #active{
+            color:aqua;
+        }
+
+        .middle-text{
+                color:#FFF;
+                font-size:32px;
+               // position: absolute;
+               // top:0;
+               // left:567px;
+                margin:0;
+                text-align:center;
+        }
+        .text1{
+            color:#FFF;
+            font-size:14px;
+            line-height:2em;
+            position:relative;
+            top:20px;
+            //left:414px;
+            text-align:center;
+            margin:0;
+        }
+}
+
+
