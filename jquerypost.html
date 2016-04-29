@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+</head>
+<body>
+
+    <input type="button" value="Click" onclick="postdata()" />
+    <div id="result"></div>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script>
+        $.ajaxSetup({ contentType: "application/json;charset=utf-8" });
+        function postdata() {
+            var result = document.getElementById('result');
+            var datainfo = {
+                name:"隔壁的阿基師",
+                gender:"male",
+                id: "no.12345",
+                number:"123455666"
+            }
+            var addinfo = JSON.stringify(datainfo);
+            $.post("http://localhost/myAPI/api/MyAPI", addinfo)
+            .done(function (data) {
+                console.log(data);
+                result.innerHTML = data;
+
+            })
+
+
+
+        }
+
+
+
+    </script>
+
+</body>
+</html>

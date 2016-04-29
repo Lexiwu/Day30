@@ -5,9 +5,10 @@
   top: 213px; }
 
 body .testimonial-icon {
-  position: absolute;
+  position: relative;
   top: 69px;
-  left: 784px; }
+  margin: auto;
+  display: block; }
 
 body .testimonials-txt {
   position: relative;
@@ -27,7 +28,10 @@ body .circle-pic {
   width: 319px;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: 45px; }
   body .circle-pic img {
-    margin: 0 4px; }
+    margin: 0 10px; }
 
