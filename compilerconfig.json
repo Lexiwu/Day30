@@ -66,5 +66,9 @@
   {
     "outputFile": "styles/work/work.css",
     "inputFile": "styles/work/work.scss"
+  },
+  {
+    "outputFile": "styles/contact/contact.css",
+    "inputFile": "styles/contact/contact.scss"
   }
 ]
