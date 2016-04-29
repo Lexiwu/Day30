@@ -70,5 +70,9 @@
   {
     "outputFile": "styles/contact/contact.css",
     "inputFile": "styles/contact/contact.scss"
+  },
+  {
+    "outputFile": "styles/newsletter/newsletter.css",
+    "inputFile": "styles/newsletter/newsletter.scss"
   }
 ]

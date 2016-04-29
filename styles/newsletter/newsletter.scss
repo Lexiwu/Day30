@@ -1,0 +1,87 @@
+﻿$newsletter-font-size : 13px;
+$newsletter-font-color:#FFF;
+$footer-line-height:2em;
+
+body {
+    .newsletter{   //whole area set-up
+        height:400px;
+        position:relative;
+        top:213px;
+        background-image: url('../../images/footer/overlay-Assistor.jpg');
+    }
+
+    .newsletter-left{  // whole left area set-up
+        height:200px;
+        width:285px;
+        position:absolute;
+        top:70px;
+        left:331px;
+        color:$newsletter-font-color;
+        font-size:$newsletter-font-size;
+        line-height:$footer-line-height;
+    }
+    .newsletter-center{   // whole center area set-up
+        height:200px;
+        width:283px;
+        position:absolute;
+        top:90px;
+        left:650px;
+        color:$newsletter-font-color;
+        font-size:$newsletter-font-size;
+    }
+    .newsletter-txt{   // center area text set-up
+        width:237px;
+        height:auto;
+        position:absolute;
+        left:30px;
+        top:30px;
+        line-height:$footer-line-height;
+    }
+    .ourstudio{      // center area tittle icon set-up
+        position:absolute;
+      
+    }
+    .locationicon{  // center area icon set-up
+        position:absolute;
+        top:45px;
+    }
+    .phoneicon{    // center area icon set-up
+        position:absolute;
+        top:135px;
+    }
+
+    .newsletter-right{   // whole right area set-up
+        height:200px;
+        width:300px;
+        position:absolute;
+        top:90px;
+        left:970px;
+        color:$newsletter-font-color;
+        font-size:$newsletter-font-size;
+    }
+
+    .stayintouch{      // right area tittle icon set-up
+        position:absolute;
+      
+    }
+    .subscribe{      // right area subscribe icon set-up
+        position:absolute;
+        top:50px;
+    }
+    .social-media{   //right area social media icon set-up
+        position:absolute;
+        top:130px;
+        img{
+        margin-right:5px;
+        }
+    }
+
+    .newsletter-bottom{
+        position:absolute;
+        bottom:69px;
+        left:332px;
+        input{
+            margin-right:330px;
+        }
+    }
+}
