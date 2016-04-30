@@ -6,8 +6,8 @@ body {
     .newsletter{   //whole area set-up
         height:400px;
         position:relative;
-        top:213px;
-        background-image: url('../../images/footer/overlay-Assistor.jpg');
+
+        background-image: url('../../images/footer/footer-background-Assistor.jpg');
     }
 
     .newsletter-left{  // whole left area set-up
@@ -19,6 +19,10 @@ body {
         color:$newsletter-font-color;
         font-size:$newsletter-font-size;
         line-height:$footer-line-height;
+        z-index:2;
+    }
+    .right-txt{     
+       text-align:left;
     }
     .newsletter-center{   // whole center area set-up
         height:200px;
@@ -28,6 +32,7 @@ body {
         left:650px;
         color:$newsletter-font-color;
         font-size:$newsletter-font-size;
+        z-index:2;
     }
     .newsletter-txt{   // center area text set-up
         width:237px;
@@ -35,22 +40,23 @@ body {
         position:absolute;
         left:30px;
         top:30px;
+        text-align:left;
         line-height:$footer-line-height;
     }
-    .ourstudio{      // center area tittle icon set-up
+    .ourstudio{      // center-area tittle set-up
         position:absolute;
       
     }
-    .locationicon{  // center area icon set-up
+    .locationicon{  // center-area location icon set-up
         position:absolute;
         top:45px;
     }
-    .phoneicon{    // center area icon set-up
+    .phoneicon{    // center-area phone icon set-up
         position:absolute;
         top:135px;
     }
 
-    .newsletter-right{   // whole right area set-up
+    .newsletter-right{   // whole right-area set-up
         height:200px;
         width:300px;
         position:absolute;
@@ -58,17 +64,29 @@ body {
         left:970px;
         color:$newsletter-font-color;
         font-size:$newsletter-font-size;
+        z-index:2;
+        input:enabled {   //.newletter-right底下有標註enabled的input背景為透明
+        background: none;}
     }
 
-    .stayintouch{      // right area tittle icon set-up
+    .stayintouch{      // right-area tittle icon set-up
         position:absolute;
       
     }
-    .subscribe{      // right area subscribe icon set-up
+    .subscribe{      // right-area subscribe icon set-up
         position:absolute;
         top:50px;
     }
-    .social-media{   //right area social media icon set-up
+    .subscribe-newsletter{
+        height:40px;
+        width:211px;
+        position:relative;
+        top:-19px;
+        border: solid #FFF 1px;
+        color:#FFF;
+         
+    }
+    .social-media{   //right-area social media icon set-up
         position:absolute;
         top:130px;
         img{
@@ -80,6 +98,7 @@ body {
         position:absolute;
         bottom:69px;
         left:332px;
+        z-index:2;
         input{
             margin-right:330px;
         }

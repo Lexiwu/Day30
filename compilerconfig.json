@@ -74,5 +74,33 @@
   {
     "outputFile": "styles/newsletter/newsletter.css",
     "inputFile": "styles/newsletter/newsletter.scss"
+  },
+  {
+    "outputFile": "styles/ttop.css",
+    "inputFile": "styles/ttop.scss"
+  },
+  {
+    "outputFile": "styles/navbar/onthetop.css",
+    "inputFile": "styles/navbar/onthetop.scss"
+  },
+  {
+    "outputFile": "styles/navbar/ttop.css",
+    "inputFile": "styles/navbar/ttop.scss"
+  },
+  {
+    "outputFile": "styles/vedio/vedio-top.css",
+    "inputFile": "styles/vedio/vedio-top.scss"
+  },
+  {
+    "outputFile": "styles/team/team-top.css",
+    "inputFile": "styles/team/team-top.scss"
+  },
+  {
+    "outputFile": "styles/testimonials/test-top.css",
+    "inputFile": "styles/testimonials/test-top.scss"
+  },
+  {
+    "outputFile": "styles/newsletter/news-top.css",
+    "inputFile": "styles/newsletter/news-top.scss"
   }
 ]

@@ -5,7 +5,7 @@ body {
         height:712px;
         background-image: url('../../images/team/team-background-Assistor.png');
         position:relative;
-        top:212px;
+
     }
 
         .team-txt{
@@ -13,6 +13,7 @@ body {
         position:relative;
         top:60px;
         text-align:center;
+        z-index:2;
     }
         .team-title{
             margin:0;

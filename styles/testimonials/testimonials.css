@@ -1,14 +1,14 @@
 ﻿body .testimonials {
   height: 500px;
   background-image: url("../../images/testimonials/Testimonials-background-Assistor.jpg");
-  position: relative;
-  top: 213px; }
+  position: relative; }
 
 body .testimonial-icon {
   position: relative;
   top: 69px;
   margin: auto;
-  display: block; }
+  display: block;
+  z-index: 2; }
 
 body .testimonials-txt {
   position: relative;
@@ -16,9 +16,14 @@ body .testimonials-txt {
   text-align: center;
   line-height: 2em;
   color: #FFF;
-  font-size: 13px; }
+  font-size: 13px;
+  z-index: 2; }
   body .testimonials-txt .test-txt1 {
-    margin: 0; }
+    width: 500px;
+    height: auto;
+    margin: auto; }
+  body .testimonials-txt p {
+    text-align: center; }
 
 body .forward-back-icon img {
   margin: 0 200px; }
@@ -30,8 +35,10 @@ body .circle-pic {
   align-items: center;
   justify-content: center;
   margin: auto;
-  position: relative;
-  top: 45px; }
+  position: absolute;
+  top: 230px;
+  left: 630px;
+  z-index: 2; }
   body .circle-pic img {
     margin: 0 10px; }
 

@@ -1,9 +1,8 @@
 ﻿body .story {
   background-color: #FFF;
   height: 331px;
-  width: 1600px;
-  position: relative;
-  top: 213px; }
+  width: auto;
+  position: relative; }
 
 body .story-title {
   color: #000;
