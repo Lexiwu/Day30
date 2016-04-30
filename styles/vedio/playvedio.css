@@ -9,7 +9,7 @@
     background-image: url("../../images/vedio/vediobackground-Assistor.png");
     position: relative; }
   body .vedio-zone {
-    position: relative;
+    position: absolute;
     top: 205px;
     left: 745px;
     width: 160px;

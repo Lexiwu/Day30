@@ -102,5 +102,9 @@
   {
     "outputFile": "styles/newsletter/news-top.css",
     "inputFile": "styles/newsletter/news-top.scss"
+  },
+  {
+    "outputFile": "styles/gotop.css",
+    "inputFile": "styles/gotop.scss"
   }
 ]

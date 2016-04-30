@@ -20,104 +20,138 @@
     <link href="styles/contact/contact.css" rel="stylesheet" />
     <link href="styles/newsletter/news-top.css" rel="stylesheet" />
     <link href="styles/newsletter/newsletter.css" rel="stylesheet" />
+    <!--carousel effect-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css" />
+    <style>
+        .slick-dots{
+            z-index:999;
+        }
+    </style>
 </head>
 <body>
     <header>
-       
-            <div class="onthetop">
-                <div class="ttop"></div>
-                <div class="navbar">
-                    <img class="logo" src="images/Logo-Assistor.png">
-                    <ul>
-                        <li><a id="active" href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#expertise">Expertise</a></li>
-                        <li><a href="#teams">Teams</a></li>
-                        <li><a href="#works">Works</a></li>
-                        <li><a href="#peoplesay">PeopleSay</a></li>
-                        <li><a href="#cobtact">Contact</a></li>
 
-                    </ul>
-                </div>
-                <div style="clear:both"></div>
+        <div class="onthetop">
+            <div class="ttop"></div>
+            <div class="navbar">
+                <img class="logo" src="images/Logo-Assistor.png">
+                <ul>
+                    <li><a id="active" href="#home">Home</a></li>
+                    <li><a id="menu-about" href="#about">About</a></li>
+                    <li><a id="menu-teams" href="#teams">Teams</a></li>
+                    <li><a id="menu-works" href="#works">Works</a></li>
+                    <li><a id="menu-peoplesay" href="#peoplesay">PeopleSay</a></li>
+                    <li><a id="menu-contact" href="#contact">Contact</a></li>
 
-                <div class="main">
+                </ul>
+            </div>
+            <div style="clear:both"></div>
 
-                    <p class="middle-text">We Are Awesome Creative Agency</p><br />
-                    <p class="text1">
-                        This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
-                        quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
-                        vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
-                    </p>
-                    <div class="learnmore">
-                        <a class="button1" href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
-                        <img class="dotnav" src="images/Dotnav-Assistor.png" /><br />
+            <div class="main">
+                <div class="my-carousel">
+                    <div>
+                        <p class="middle-text">We Are Awesome Creative Agency</p><br />
+                        <p class="text1">
+                            This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
+                            quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
+                            vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
+                        </p>
                     </div>
-
+                    <div>
+                        <p class="middle-text">We Are Awesome Creative Agency2</p><br />
+                        <p class="text1">
+                            This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
+                            quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
+                            vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
+                        </p>
+                    </div>
+                    <div>
+                        <p class="middle-text">We Are Awesome Creative Agency3</p><br />
+                        <p class="text1">
+                            This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
+                            quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
+                            vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
+                        </p>
+                    </div>
                 </div>
+              
+                <div class="learnmore">
+                    <a class="button1" href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
+                    <img class="dotnav" src="images/Dotnav-Assistor.png" /><br />
+                </div>
+
+            </div>
+        </div>
+
+        <div class="story">
+
+            <p class="story-title">OUR STORY</p>
+            <div class="story-txt">
+                <p>
+                    This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor<br />
+                    aloquet.Aenean Sollicitudin,lorem quis bibendum auctor, nisi elot consequat ipsum, <br />
+                    nec sagittis sem nibh id elit.Duis sed odio sit smet nibh vuputate cursus.<br />
+                </p>
+                <p>
+                    Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.<br />
+                    Sed non mauris vitae erat aconsequat auctor eu in elit. Class aptent taciti sociosqu<br />
+                    ad litora tirquent conubia nostra, per inceptos himenaeos.
+                </p>
             </div>
 
-            <div class="story">
-
-                <p class="story-title">OUR STORY</p>
-                <div class="story-txt">
-                    <p>
-                        This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor<br />
-                        aloquet.Aenean Sollicitudin,lorem quis bibendum auctor, nisi elot consequat ipsum, <br />
-                        nec sagittis sem nibh id elit.Duis sed odio sit smet nibh vuputate cursus.<br />
-                    </p>
-                    <p>
-                        Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.<br />
-                        Sed non mauris vitae erat aconsequat auctor eu in elit. Class aptent taciti sociosqu<br />
-                        ad litora tirquent conubia nostra, per inceptos himenaeos.
-                    </p>
-                </div>
-
-                <div class="learnmore2">
-                    <a href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
-                </div>
-                <img class="biglogo" src="images/navbar/Replacewithyourlogo-Assistor.png" />
+            <div class="learnmore2">
+                <a href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
             </div>
-   
+            <img class="biglogo" src="images/navbar/Replacewithyourlogo-Assistor.png" />
+        </div>
+
     </header>
-     
-        <div class="vedioplay">
-            <div class="v-top"> </div>
-                <div class="vedio-zone">
-                    <a class="playicon" href="#playvedio"><img src="images/vedio/PlayIcon-Assistor.png" /> </a>
-                    <p class="vedio-txt">WATCH OUT STORY</p>
-                </div>
+
+    <div class="vedioplay">
        
-        </div>
+        <div class="v-top"> </div>
 
-        <div class="expertise">
-            <div class="ex-text">
-                <p class="ex-title">EXPERTISE</p>
-                <p class="extxt">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-                <img class="separator" src="images/Separator-Assistor.png" />
-                <img class="item" src="images/expertise/Items-Assistor.png" />
+        <video class="my-video" width="1600" height="550" controls="controls">
+            <source src="video/mov_bbb.mp4" type="video/mp4" />
+        </video>
+
+        <div class="vedio-zone" >
+            <a class="playicon" href="#playvedio"><img src="images/vedio/PlayIcon-Assistor.png" /> </a>
+            <p class="vedio-txt">WATCH OUT STORY</p>
+        </div>
+       
+    </div>
+
+    <div class="expertise">
+        <div class="ex-text">
+            <p class="ex-title">EXPERTISE</p>
+            <p class="extxt">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+            <img class="separator" src="images/Separator-Assistor.png" />
+            <img class="item" src="images/expertise/Items-Assistor.png" />
+        </div>
+    </div>
+
+    <div class="team">
+        <div class="team-top"> </div>
+        <div class="team-txt">
+            <p class="team-title">MEET OUR AMAZING TEAM</p>
+            <p class="tetxt">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+            <img class="separator" src="images/Separator-Assistor.png" />
+            <div class="pic4">
+                <img src="images/team/1-Assistor.png" />
+                <img src="images/team/2-Assistor.png" />
+                <img src="images/team/3-Assistor.png" />
+                <img src="images/team/4-Assistor.png" />
+            </div>
+            <div class="hire">
+                <p class="hiretxt"> Become part of our dream team. Let's join us!</p>
+                <a href="#hire"><img class="hirepic" src="images/team/hire-button-Assistor.png" /></a>
             </div>
         </div>
 
-        <div class="team">
-            <div class="team-top"> </div>
-            <div class="team-txt">
-                <p class="team-title">MEET OUR AMAZING TEAM</p>
-                <p class="tetxt">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-                <img class="separator" src="images/Separator-Assistor.png" />
-                <div class="pic4">
-                    <img src="images/team/1-Assistor.png" />
-                    <img src="images/team/2-Assistor.png" />
-                    <img src="images/team/3-Assistor.png" />
-                    <img src="images/team/4-Assistor.png" />
-                </div>
-                <div class="hire">
-                    <p class="hiretxt"> Become part of our dream team. Let's join us!</p>
-                    <a href="#hire"><img class="hirepic" src="images/team/hire-button-Assistor.png" /></a>
-                </div>
-            </div>
-
-        </div>
+    </div>
 
 
     <main>
@@ -230,5 +264,55 @@
         </div>
 
     </footer>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <script src="js/menu.js"></script>
+    <div id="gotop">Back</div>
+    <link href="styles/gotop.css" rel="stylesheet" />
+    <!--<script>
+          //1.先讓按鈕有按下然後執行內容的效果
+          $('#menu-about').click(function () {
+              //2.利用animate移到到指定的區塊
+              $('html,body').animate({ scrollTop: $('.vedioplay').offset().top }, 800);
+          });
+
+          $('#menu-teams').click(function () {
+              $('html,body').animate({ scrollTop: $('.team').offset().top }, 800);
+          })
+
+          $('#menu-works').click(function () {
+              $('html,body').animate({ scrollTop: $('.work').offset().top }, 800);
+          })
+
+          $('#menu-peoplesay').click(function () {
+              $('html,body').animate({ scrollTop: $('.testimonials').offset().top }, 800);
+          })
+
+          $('#menu-contact').click(function () {
+              $('html,body').animate({ scrollTop: $('.contact').offset().top }, 800);
+          })
+
+          $(function () {  //1.點下按鈕之後會以 animate動態效果讓捲軸捲到網頁最頂端
+               $("#gotop").click(function(){
+                  jQuery("html,body").animate({scrollTop:0},800);
+               });
+              //2.$(this).scrollTop()就是用來取得目前的位置距離網頁頂端有多遠，若大於 300px 就會將按鈕顯示出來，小於就會隱藏。
+               $(window).scroll(function () {
+                   console.log(this);
+                   if ($(this).scrollTop() > 300) {
+                       $('#gotop').fadeIn('fast');
+                   } else {
+                       $('#gotop').fadeOut('fast');
+                   }
+               });
+
+
+
+          });
+
+      </script>-->
+
+
+
 </body>
 </html>
