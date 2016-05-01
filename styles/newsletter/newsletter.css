@@ -76,9 +76,32 @@ body .subscribe-newsletter {
 
 body .social-media {
   position: absolute;
-  top: 130px; }
-  body .social-media img {
-    margin-right: 5px; }
+  top: 130px;
+  height: 45px;
+  width: 300px; }
+  body .social-media a i {
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+    display: inline-block; }
+  body .social-media a:nth-child(1) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 0; }
+  body .social-media a:nth-child(2) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -45px; }
+  body .social-media a:nth-child(3) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -90px; }
+  body .social-media a:nth-child(4) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -135px; }
+  body .social-media a:nth-child(5) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -180px; }
+  body .social-media a:nth-child(6) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -225px; }
 
 body .newsletter-bottom {
   position: absolute;

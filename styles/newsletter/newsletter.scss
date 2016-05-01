@@ -89,9 +89,23 @@ body {
     .social-media{   //right-area social media icon set-up
         position:absolute;
         top:130px;
-        img{
-        margin-right:5px;
+        height:45px;
+        width:300px;
+      a {                   //利用sprites將很多小圖合併成一張大圖，用&:nth-child()選取指定位置 
+           i{               // 可減少圖片載入次數
+             margin-right:5px;
+             height:35px;width:35px;
+             display:inline-block;
+             }
+            &:nth-child(1) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 0;}
+            &:nth-child(2) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -45px;}
+            &:nth-child(3) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -90px;}
+            &:nth-child(4) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -135px;}
+            &:nth-child(5) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -180px;}
+            &:nth-child(6) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -225px;}
         }
+
+        
     }
 
     .newsletter-bottom{
@@ -103,4 +117,5 @@ body {
             margin-right:330px;
         }
     }
+    
 }

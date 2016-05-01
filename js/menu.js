@@ -1,4 +1,4 @@
-﻿/// <reference path="jquery-1.12.3.js" /> 
+﻿///<reference path="jquery-1.12.3.js" /> 
 
 $(function () {  
 
@@ -68,12 +68,55 @@ $(function () {
     
     ///////////testimonials effect
 
-    $(document).ready(function(){
+    
         $('.circle-pic').slick({
                 centerMode: true,
                 centerPadding: '60px',
                 slidesToShow: 3
             });
-        });
+        
+    /////// contact effect：用json.post新增資料
+
+        $('.sub-buttom').click(function () {
+            $.ajaxSetup({ contentType: "application/json;charset=utf-8" });
+            //利用jQuery 取得目標編號的內容
+            //1.利用jQuery取得編號index目標
+            //[input01,input02,input03] 能夠依照編號取得01或02或03                 
+            //範例：               document.getElementsByClassName('blah')[9].innerHTML = 'blah';
+            //如何轉換成jQuery寫法：$(".blah").eq(9).html('blah'); 
+
+
+            //var result1 = document.getElementsByClassName('information');   //取得框框輸入的值
+            //var result2 = document.getElementsByClassName('info-mes');      //取得框框輸入的值
+            var clientName = $(".information").eq(0).val();     //class=information有三個
+            var clientEmail = $(".information").eq(1).val();    //利用console去看回傳的值是什麼
+            var clientSubject = $(".information").eq(2).val();  //回傳的object為陣列[0,1,2]
+            var clientMes = $(".info-mes").eq(0).val();         //class=info-mes [0]
+            var customerInfo = {                                //新增資料：json格式
+                Name: clientName,
+                Email: clientEmail,
+                Subject: clientSubject,
+                Message: clientMes
+            };
+            
+            //customerInfo.Name = result1[0].value;
+            //customerInfo.Email = result1[1].value;
+            //customerInfo.Subject = result1[2].value;
+            //customerInfo.Message = result2[0].value;
+            var data1 = JSON.stringify(customerInfo);       //2.將資料轉換成json格式
+
+            //console.log(data1); 利用console看有沒有反應
+
+            $.post("http://localhost/myapi/api/myapi", data1)   //3.post新增資料
+             .done(function (client) {
+                 alert('新增資料成功!!');
+             })
+        });//.sub-buttom click ending
+
+
+
+       
     
+    
+
 });
