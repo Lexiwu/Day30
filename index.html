@@ -20,15 +20,27 @@
     <link href="styles/contact/contact.css" rel="stylesheet" />
     <link href="styles/newsletter/news-top.css" rel="stylesheet" />
     <link href="styles/newsletter/newsletter.css" rel="stylesheet" />
+
     <!--carousel effect-->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css" />
+
+    <!--// START Add the new slick-theme.css if you want the default styling-->
+    <!--<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />-->
+    <!--// END  Add the new slick-theme.css if you want the default styling-->
+
     <style>
-        .slick-dots{
-            z-index:999;
+        .slick-dots {
+            z-index: 999;
         }
+
+
+        
     </style>
+
+
 </head>
 <body>
     <header>
@@ -76,7 +88,7 @@
                         </p>
                     </div>
                 </div>
-              
+
                 <div class="learnmore">
                     <a class="button1" href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
                     <img class="dotnav" src="images/Dotnav-Assistor.png" /><br />
@@ -101,27 +113,39 @@
                 </p>
             </div>
 
-            <div class="learnmore2">
-                <a href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
-            </div>
+
+            <input class="learnmore2" type="image" src="images/Button-Assistor.png" />
+
             <img class="biglogo" src="images/navbar/Replacewithyourlogo-Assistor.png" />
+
+
         </div>
+
+        <div class="morestory">
+            <p>
+                Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.<br />
+                Sed non mauris vitae erat aconsequat auctor eu in elit. Class aptent taciti sociosqu<br />
+                ad litora tirquent conubia nostra, per inceptos himenaeos.
+            </p>
+
+        </div>
+
 
     </header>
 
     <div class="vedioplay">
-       
+
         <div class="v-top"> </div>
 
         <video class="my-video" width="1600" height="550" controls="controls">
             <source src="video/mov_bbb.mp4" type="video/mp4" />
         </video>
 
-        <div class="vedio-zone" >
+        <div class="vedio-zone">
             <a class="playicon" href="#playvedio"><img src="images/vedio/PlayIcon-Assistor.png" /> </a>
             <p class="vedio-txt">WATCH OUT STORY</p>
         </div>
-       
+
     </div>
 
     <div class="expertise">
@@ -182,15 +206,15 @@
                     JANE GALADRIEL<br />
                     CEOTENGKUREP
                 </p>
-
+                <!--人像輪轉-->
                 <div class="circle-pic">
-                    <input type="image" src="images/testimonials/back-Assistor.png" />
-                    <img src="images/testimonials/test1-Assistor.png" />
-                    <img src="images/testimonials/test2-Assistor.png" />
-                    <img src="images/testimonials/test3-Assistor.png" />
-                    <img src="images/testimonials/test4-Assistor.png" />
-                    <img src="images/testimonials/test5-Assistor.png" />
-                    <input type="image" src="images/testimonials/forward-Assistor.png" />
+                    <div><img src="images/testimonials/test1-Assistor.png" /></div>
+                    <div><img src="images/testimonials/test2-Assistor.png" /></div>
+                    <div><img src="images/testimonials/test3-Assistor.png" /></div>
+                    <div><img src="images/testimonials/test4-Assistor.png" /></div>
+                    <div><img src="images/testimonials/test5-Assistor.png" /></div>
+                    <!--<input type="image" src="images/testimonials/back-Assistor.png" />
+                    <input type="image" src="images/testimonials/forward-Assistor.png" />-->
                 </div>
             </div>
         </div>
@@ -269,48 +293,7 @@
     <script src="js/menu.js"></script>
     <div id="gotop">Back</div>
     <link href="styles/gotop.css" rel="stylesheet" />
-    <!--<script>
-          //1.先讓按鈕有按下然後執行內容的效果
-          $('#menu-about').click(function () {
-              //2.利用animate移到到指定的區塊
-              $('html,body').animate({ scrollTop: $('.vedioplay').offset().top }, 800);
-          });
 
-          $('#menu-teams').click(function () {
-              $('html,body').animate({ scrollTop: $('.team').offset().top }, 800);
-          })
-
-          $('#menu-works').click(function () {
-              $('html,body').animate({ scrollTop: $('.work').offset().top }, 800);
-          })
-
-          $('#menu-peoplesay').click(function () {
-              $('html,body').animate({ scrollTop: $('.testimonials').offset().top }, 800);
-          })
-
-          $('#menu-contact').click(function () {
-              $('html,body').animate({ scrollTop: $('.contact').offset().top }, 800);
-          })
-
-          $(function () {  //1.點下按鈕之後會以 animate動態效果讓捲軸捲到網頁最頂端
-               $("#gotop").click(function(){
-                  jQuery("html,body").animate({scrollTop:0},800);
-               });
-              //2.$(this).scrollTop()就是用來取得目前的位置距離網頁頂端有多遠，若大於 300px 就會將按鈕顯示出來，小於就會隱藏。
-               $(window).scroll(function () {
-                   console.log(this);
-                   if ($(this).scrollTop() > 300) {
-                       $('#gotop').fadeIn('fast');
-                   } else {
-                       $('#gotop').fadeOut('fast');
-                   }
-               });
-
-
-
-          });
-
-      </script>-->
 
 
 

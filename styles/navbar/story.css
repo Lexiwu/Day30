@@ -30,3 +30,13 @@ body .biglogo {
   top: 40px;
   left: 350px; }
 
+body .morestory {
+  display: none;
+  background-color: #FFF;
+  height: 131px;
+  width: auto;
+  position: relative; }
+  body .morestory p {
+    margin: 0;
+    text-align: center; }
+

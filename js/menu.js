@@ -1,7 +1,11 @@
 ﻿/// <reference path="jquery-1.12.3.js" /> 
-$(function () {  //1.點下按鈕之後會以 animate動態效果讓捲軸捲到網頁最頂端
+
+$(function () {  
+
+
+    /////////navbar effect
     $("#gotop").click(function () {
-        jQuery("html,body").animate({ scrollTop:0 }, 800);
+        jQuery("html,body").animate({ scrollTop: 0 }, 800); //1.點下按鈕之後會以 animate動態效果讓捲軸捲到網頁最頂端
     });
     //2.$(this).scrollTop()就是用來取得目前的位置距離網頁頂端有多遠，若大於 300px 就會將按鈕顯示出來，小於就會隱藏。
     $(window).scroll(function () {
@@ -41,7 +45,17 @@ $(function () {  //1.點下按鈕之後會以 animate動態效果讓捲軸捲到
         dots:true
     });
    
-    
+
+    ///////// story effect
+
+    $(".learnmore2").click(function () {
+        $(".morestory").slideToggle(1000);
+    });
+
+
+
+
+    ///////// Videi effect
     $('.playicon').click(function () {   //1.按下按鈕-影片播放
         $('.my-video').get(0).play();
         $('.v-top').hide();              //2.1隱藏紫色布幕
@@ -52,7 +66,14 @@ $(function () {  //1.點下按鈕之後會以 animate動態效果讓捲軸捲到
         })
     })
     
-    
+    ///////////testimonials effect
 
+    $(document).ready(function(){
+        $('.circle-pic').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3
+            });
+        });
     
 });
