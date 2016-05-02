@@ -54,7 +54,7 @@
     /*testimonails effect*/
     /*slick-slide和slick-current在slick.css & slick-theme裡面有定義*/
 
-        .slick-slide {         //不在中間的圖示
+       .circle-pic .slick-slide {         //不在中間的圖示
             opacity: 0.6;
             -moz-transform: none;
             -ms-transform: none;
@@ -67,7 +67,7 @@
             transition: transform 0.5s;   //transform要做動畫效果
         }
 
-        .slick-center {          //在中間的圖示
+       .circle-pic .slick-center {          //在中間的圖示
             opacity: 1;
             -moz-transform: scale(1.5,1.5);
             -ms-transform: scale(1.5,1.5);
@@ -76,7 +76,7 @@
             transform: scale(1.5,1.5);   //圖示從原始的樣子放大1.5倍
         }
 
-        .slick-track    /*設定寬度讓圖示變大的時候，圖示不會被切掉*/
+       .circle-pic .slick-track    /*設定寬度讓圖示變大的時候，圖示不會被切掉*/
         {
             height:70px;
             margin-top:20px;
