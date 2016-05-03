@@ -236,15 +236,16 @@
                 <a href="#levis"><i></i></a>
                 <a href="#bong"><i></i></a>
             </div>
-
-        <div class="type-info">
-            <input class="information" type="text" placeholder="Name" /><br>
-            <input class="information" type="text" placeholder="Email" /><br>
-            <input class="information" type="text" placeholder="Subject" /><br>
-            <textarea class="info-mes" type="text" placeholder="Your Message"></textarea>
-            <input class="sub-buttom" type="image" src="images/contact/submitbutton-Assistor.png" />
-        </div>
-        </div>
+            <form id="myform">
+                <div class="type-info">
+                    <input class="information" type="text" placeholder="Name"  name="Name"/><br>
+                    <input class="information" type="text" placeholder="Email"  name="Email" /><br>
+                    <input class="information" type="text" placeholder="Subject"  name="Subject"/><br>
+                    <textarea class="info-mes" type="text" placeholder="Your Message"  name="Message"></textarea>
+                    <input class="sub-buttom" type="image" src="images/contact/submitbutton-Assistor.png" />
+                </div>
+            </form>
+</div>
     </main>
     <footer>
         <div class="newsletter">
@@ -300,6 +301,9 @@
 
     </footer>
     <script src="js/jquery-1.12.3.js"></script> <!--通常放在</body>的上面 因為網頁是由上往下讀取 先讀取整個頁面 再讀取js文件 避免網頁空白-->
+    <script src="js/validate/jquery.validate.js"></script>
+    <script src="js/validate/additional-methods.js"></script>
+    <script src="js/validate/localization/messages_zh_TW.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> <!--圖片輪播套件-->
     <script src="js/menu.js"></script>
     <div id="gotop">Back</div>
