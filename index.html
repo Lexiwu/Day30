@@ -4,6 +4,10 @@
     <title></title>
     <meta charset="utf-8" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
+
+
     <link href="styles/normalize.css" rel="stylesheet" />
     <link href="styles/index-layout.css" rel="stylesheet" />
     <link href="styles/navbar/ttop.css" rel="stylesheet" />
@@ -21,8 +25,11 @@
     <link href="styles/newsletter/news-top.css" rel="stylesheet" />
     <link href="styles/newsletter/newsletter.css" rel="stylesheet" />
 
+
+
     <!--carousel effect-->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
+
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css" />
 
@@ -36,8 +43,8 @@
             z-index: 999;
         }
 
+    /*body { padding-top: 70px; }*/
 
-        
     </style>
 
 
@@ -45,272 +52,342 @@
 <body>
     <header>
 
-        <div class="onthetop">
-            <div class="ttop"></div>
-            <div class="navbar">
-                <img class="logo" src="images/Logo-Assistor.png">
-                <ul>
-                    <li><a id="active" href="#home">Home</a></li>
-                    <li><a id="menu-about" href="#about">About</a></li>
-                    <li><a id="menu-teams" href="#teams">Teams</a></li>
-                    <li><a id="menu-works" href="#works">Works</a></li>
-                    <li><a id="menu-peoplesay" href="#peoplesay">PeopleSay</a></li>
-                    <li><a id="menu-contact" href="#contact">Contact</a></li>
+        <!--navbar style-->
 
-                </ul>
+        <nav class="navbar navbar-default navbar-fixed-top visible-sm-block visible-xs-block" >
+            <div class="container">
+
+                    <ul>
+                        <li><a id="active" href="#home">Home</a></li>
+                        <li><a id="menu-about" href="#about">About</a></li>
+                        <li><a id="menu-teams" href="#teams">Teams</a></li>
+                        <li><a id="menu-works" href="#works">Works</a></li>
+                        <li><a id="menu-peoplesay" href="#peoplesay">PeopleSay</a></li>
+                        <li><a id="menu-contact" href="#contact">Contact</a></li>
+
+                    </ul>
             </div>
-            <div style="clear:both"></div>
+        </nav>
 
-            <div class="main">
-                <div class="my-carousel">
-                    <div>
-                        <p class="middle-text">We Are Awesome Creative Agency</p><br />
-                        <p class="text1">
-                            This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
-                            quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
-                            vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
-                        </p>
-                    </div>
-                    <div>
-                        <p class="middle-text">We Are Awesome Creative Agency2</p><br />
-                        <p class="text1">
-                            This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
-                            quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
-                            vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
-                        </p>
-                    </div>
-                    <div>
-                        <p class="middle-text">We Are Awesome Creative Agency3</p><br />
-                        <p class="text1">
-                            This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
-                            quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
-                            vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
-                        </p>
+            <!--navbar style-->
+
+
+
+            <div class="onthetop">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="ttop"></div>
+                        <div class="navbar visible-lg-block visible-md-block">
+                            <img class="logo" src="images/Logo-Assistor.png">
+                            <ul>
+                                <li><a id="active" href="#home">Home</a></li>
+                                <li><a id="menu-about" href="#about">About</a></li>
+                                <li><a id="menu-teams" href="#teams">Teams</a></li>
+                                <li><a id="menu-works" href="#works">Works</a></li>
+                                <li><a id="menu-peoplesay" href="#peoplesay">PeopleSay</a></li>
+                                <li><a id="menu-contact" href="#contact">Contact</a></li>
+
+                            </ul>
+                        </div>
+                        <div style="clear:both"></div>
+
+                        <div class="main">
+                            <div class="my-carousel">
+                                <div>
+                                    <p class="middle-text">We Are Awesome Creative Agency</p><br />
+                                    <p class="text1">
+                                        This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
+                                        quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
+                                        vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="middle-text">We Are Awesome Creative Agency2</p><br />
+                                    <p class="text1">
+                                        This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
+                                        quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
+                                        vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="middle-text">We Are Awesome Creative Agency3</p><br />
+                                    <p class="text1">
+                                        This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor aloquet.Aenean Sollicitudin,lorem<br />
+                                        quis bibendum auctor, nisi elot consequat ipsum, nec sagittis sem nibh id elit.Duis sed odio sit smet nibh<br />
+                                        vuputate cursus a sit amet mauris. Morbi accumsan ipsum velit.<br />
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="learnmore">
+                                <a class="button1" href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
+                                <!--<img class="dotnav" src="images/Dotnav-Assistor.png" /><br />-->
+                            </div>
+
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="learnmore">
-                    <a class="button1" href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
-                    <img class="dotnav" src="images/Dotnav-Assistor.png" /><br />
+            <div class="story">
+                <div class="container-fluid">
+                    <div class="row">
+                        <p class="story-title">OUR STORY</p>
+                        <div class="story-txt">
+                            <p>
+                                This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor<br />
+                                aloquet.Aenean Sollicitudin,lorem quis bibendum auctor, nisi elot consequat ipsum, <br />
+                                nec sagittis sem nibh id elit.Duis sed odio sit smet nibh vuputate cursus.<br />
+                            </p>
+                            <p>
+                                Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.<br />
+                                Sed non mauris vitae erat aconsequat auctor eu in elit. Class aptent taciti sociosqu<br />
+                                ad litora tirquent conubia nostra, per inceptos himenaeos.
+                            </p>
+                        </div>
+
+
+                        <input class="learnmore2" type="image" src="images/Button-Assistor.png" />
+
+                        <img class="biglogo" src="images/navbar/Replacewithyourlogo-Assistor.png" />
+
+
+                    </div>
+
+                    <div class="morestory">
+                        <p>
+                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.<br />
+                            Sed non mauris vitae erat aconsequat auctor eu in elit. Class aptent taciti sociosqu<br />
+                            ad litora tirquent conubia nostra, per inceptos himenaeos.
+                        </p>
+
+                    </div>
+
                 </div>
-
             </div>
-        </div>
-
-        <div class="story">
-
-            <p class="story-title">OUR STORY</p>
-            <div class="story-txt">
-                <p>
-                    This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor<br />
-                    aloquet.Aenean Sollicitudin,lorem quis bibendum auctor, nisi elot consequat ipsum, <br />
-                    nec sagittis sem nibh id elit.Duis sed odio sit smet nibh vuputate cursus.<br />
-                </p>
-                <p>
-                    Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.<br />
-                    Sed non mauris vitae erat aconsequat auctor eu in elit. Class aptent taciti sociosqu<br />
-                    ad litora tirquent conubia nostra, per inceptos himenaeos.
-                </p>
-            </div>
-
-
-            <input class="learnmore2" type="image" src="images/Button-Assistor.png" />
-
-            <img class="biglogo" src="images/navbar/Replacewithyourlogo-Assistor.png" />
-
-
-        </div>
-
-        <div class="morestory">
-            <p>
-                Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.<br />
-                Sed non mauris vitae erat aconsequat auctor eu in elit. Class aptent taciti sociosqu<br />
-                ad litora tirquent conubia nostra, per inceptos himenaeos.
-            </p>
-
-        </div>
 
 
     </header>
 
     <div class="vedioplay">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="v-top"> </div>
+                <video class="my-video" width="1600" height="550" controls="controls">
+                    <source src="video/mov_bbb.mp4" type="video/mp4" />
+                </video>
 
-        <div class="v-top"> </div>
+                <div class="vedio-zone">
+                    <a class="playicon" href="#playvedio"><img src="images/vedio/PlayIcon-Assistor.png" /> </a>
+                    <p class="vedio-txt">WATCH OUT STORY</p>
+                </div>
 
-        <video class="my-video" width="1600" height="550" controls="controls">
-            <source src="video/mov_bbb.mp4" type="video/mp4" />
-        </video>
-
-        <div class="vedio-zone">
-            <a class="playicon" href="#playvedio"><img src="images/vedio/PlayIcon-Assistor.png" /> </a>
-            <p class="vedio-txt">WATCH OUT STORY</p>
+            </div>
         </div>
-
     </div>
 
     <div class="expertise">
-        <div class="ex-text">
-            <p class="ex-title">EXPERTISE</p>
-            <p class="extxt">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-            <img class="separator" src="images/Separator-Assistor.png" />
-            <img class="item" src="images/expertise/Items-Assistor.png" />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="ex-text">
+                    <p class="ex-title">EXPERTISE</p>
+                    <p class="extxt">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                    <img class="separator" src="images/Separator-Assistor.png" />
+                    <img class="item" src="images/expertise/Items-Assistor.png" />
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="team">
-        <div class="team-top"> </div>
-        <div class="team-txt">
-            <p class="team-title">MEET OUR AMAZING TEAM</p>
-            <p class="tetxt">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-            <img class="separator" src="images/Separator-Assistor.png" />
-            <div class="pic4">
-                <img src="images/team/1-Assistor.png" />
-                <img src="images/team/2-Assistor.png" />
-                <img src="images/team/3-Assistor.png" />
-                <img src="images/team/4-Assistor.png" />
-            </div>
-            <div class="hire">
-                <p class="hiretxt"> Become part of our dream team. Let's join us!</p>
-                <a href="#hire"><img class="hirepic" src="images/team/hire-button-Assistor.png" /></a>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="team-top"> </div>
+                <div class="team-txt">
+                    <p class="team-title">MEET OUR AMAZING TEAM</p>
+                    <p class="tetxt">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+                    <img class="separator" src="images/Separator-Assistor.png" />
+                    <div class="pic4">
+                        <img src="images/team/1-Assistor.png" />
+                        <img src="images/team/2-Assistor.png" />
+                        <img src="images/team/3-Assistor.png" />
+                        <img src="images/team/4-Assistor.png" />
+                    </div>
+                    <div class="hire">
+                        <p class="hiretxt"> Become part of our dream team. Let's join us!</p>
+                        <a href="#hire"><img class="hirepic" src="images/team/hire-button-Assistor.png" /></a>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 
-
     <main>
+
         <div class="work">
-            <img class="ourworks" src="images/work/OURWORKS.png" />
-            <div class="project">
-                <img src="images/work/SeeAllProjectindribbble.png" />
-                <a href="#see"><img src="images/work/right154.png" /></a>
+            <div class="container-fluid">
+                <div class="row">
+                    <img class="ourworks" src="images/work/OURWORKS.png" />
+                    <div class="project">
+                        <img src="images/work/SeeAllProjectindribbble.png" />
+                        <a href="#see"><img src="images/work/right154.png" /></a>
+                    </div>
+                    <div class="work-area">
+                        <img class="work-top" src="images/work/work-Top-Assistor.png" />
+                        <img class="work-bottom" src="images/work/work-Bottom-Assistor.png" />
+                    </div>
+                    <a href="#loadmore"><img class="loadmore" src="images/work/loadmore-Assistor.png" /></a>
+                </div>
             </div>
-            <div class="work-area">
-                <img class="work-top" src="images/work/work-Top-Assistor.png" />
-                <img class="work-bottom" src="images/work/work-Bottom-Assistor.png" />
-            </div>
-            <a href="#loadmore"><img class="loadmore" src="images/work/loadmore-Assistor.png" /></a>
         </div>
 
         <div class="testimonials">
-            <div class="test-top"></div>
-            <img class="testimonial-icon" src="images/testimonials/testi-Assistor.png" />
-            <div class="testimonials-txt">
-                <p class="test-txt1">
-                    This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor
-                    aloquet.Aenean Sollicitudin,lorem quis bibendum auctor, nisi elot consequat ipsum,
-                    nec sagittis sem nibh id elit.Duis sed odio sit smet nibh vuputate cursus.Aenean
-                    Sollicitudin,lorem quis bibendum auctor, nisi elot consequat ipsum,
-                    nec sagittis sem nibh id elit.Duis sed odio sit smet nibh vuputate cursus.
-                    <br /><br />
-                    JANE GALADRIEL<br />
-                    CEOTENGKUREP
-                </p>
-                <!--人像輪轉-->
-                <div class="circle-pic">
-                    <div><img src="images/testimonials/test1-Assistor.png" /></div>
-                    <div><img src="images/testimonials/test2-Assistor.png" /></div>
-                    <div><img src="images/testimonials/test3-Assistor.png" /></div>
-                    <div><img src="images/testimonials/test4-Assistor.png" /></div>
-                    <div><img src="images/testimonials/test5-Assistor.png" /></div>
-                    <!--<input type="image" src="images/testimonials/back-Assistor.png" />
-                    <input type="image" src="images/testimonials/forward-Assistor.png" />-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="test-top"></div>
+                    <img class="testimonial-icon" src="images/testimonials/testi-Assistor.png" />
+                    <div class="testimonials-txt">
+                        <p class="test-txt1">
+                            This is Photoshop's version of Lorem Ipsum.Proin gravida nibh vel velit auctor
+                            aloquet.Aenean Sollicitudin,lorem quis bibendum auctor, nisi elot consequat ipsum,
+                            nec sagittis sem nibh id elit.Duis sed odio sit smet nibh vuputate cursus.Aenean
+                            Sollicitudin,lorem quis bibendum auctor, nisi elot consequat ipsum,
+                            nec sagittis sem nibh id elit.Duis sed odio sit smet nibh vuputate cursus.
+                            <br /><br />
+                            JANE GALADRIEL<br />
+                            CEOTENGKUREP
+                        </p>
+                        <!--人像輪轉-->
+                        <div class="circle-pic">
+                            <div><img src="images/testimonials/test1-Assistor.png" /></div>
+                            <div><img src="images/testimonials/test2-Assistor.png" /></div>
+                            <div><img src="images/testimonials/test3-Assistor.png" /></div>
+                            <div><img src="images/testimonials/test4-Assistor.png" /></div>
+                            <div><img src="images/testimonials/test5-Assistor.png" /></div>
+                            <!--<input type="image" src="images/testimonials/back-Assistor.png" />
+                        <input type="image" src="images/testimonials/forward-Assistor.png" />-->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="contact">
-            <div class="contact-info">
-                <img class="contact-news" src="images/contact/GIVEUSAGOODNEWS-Assistor.png" />
-                <img class="contact-clint" src="images/contact/OURHAPPYCLIENT-Assistor.png" />
-            </div>
-            <div class="our-client">
-                <a href="#zare"><i></i></a>
-                <a href="#mango"><i></i></a>
-                <a href="#newyork"><i></i></a>
-                <a href="#gucci"><i></i></a>
-                <a href="#CK"><i></i></a>
-                <a href="#nike"><i></i></a>
-                <a href="#converse"><i></i></a>
-                <a href="#puma"><i></i></a>
-                <a href="#levis"><i></i></a>
-                <a href="#bong"><i></i></a>
-            </div>
-            <form id="myform">
-                <div class="type-info">
-                    <input class="information" type="text" placeholder="Name"  name="Name"/><br>
-                    <input class="information" type="text" placeholder="Email"  name="Email" /><br>
-                    <input class="information" type="text" placeholder="Subject"  name="Subject"/><br>
-                    <textarea class="info-mes" type="text" placeholder="Your Message"  name="Message"></textarea>
-                    <input class="sub-buttom" type="image" src="images/contact/submitbutton-Assistor.png" />
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="contact-info">
+                        <img class="contact-news" src="images/contact/GIVEUSAGOODNEWS-Assistor.png" />
+                        <img class="contact-clint" src="images/contact/OURHAPPYCLIENT-Assistor.png" />
+                    </div>
+                    <div class="our-client">
+                        <a href="#zare"><i></i></a>
+                        <a href="#mango"><i></i></a>
+                        <a href="#newyork"><i></i></a>
+                        <a href="#gucci"><i></i></a>
+                        <a href="#CK"><i></i></a>
+                        <a href="#nike"><i></i></a>
+                        <a href="#converse"><i></i></a>
+                        <a href="#puma"><i></i></a>
+                        <a href="#levis"><i></i></a>
+                        <a href="#bong"><i></i></a>
+                    </div>
+                    <form id="myform">
+                        <div class="type-info">
+                            <input class="information" type="text" placeholder="Name" name="Name" /><br>
+                            <input class="information" type="text" placeholder="Email" name="Email" /><br>
+                            <input class="information" type="text" placeholder="Subject" name="Subject" /><br>
+                            <textarea class="info-mes" type="text" placeholder="Your Message" name="Message"></textarea>
+                            <input class="sub-buttom" type="image" src="images/contact/submitbutton-Assistor.png" />
+                        </div>
+                    </form>
                 </div>
-            </form>
-</div>
+            </div>
+        </div>
     </main>
+
     <footer>
+
         <div class="newsletter">
-            <div class="news-top"></div>
-            <div class="newsletter-left">
-                <img class="footerlogo" src="images/Logo-Assistor.png" />
-                <p class="right-txt">
-                    orem quis bibendum auctor, nisi elit
-                    consequat ipsum, nec sagittis sem nibh elit.
-                    Duis sed odio sit amet auctror a ornare odio
-                    non mauris vitae erat in elit
-                </p>
-            </div>
-            <div class="newsletter-center">
-                <img class="ourstudio" src="images/footer/OURSTUDIO-Assistor.png" />
-                <img class="locationicon" src="images/footer/big104-Assistor.png" />
-                <img class="phoneicon" src="images/footer/phone351-Assistor.png" />
-                <div class="newsletter-txt">
-                    <p class="location-txt">
-                        Ruko cucruk, Jl. Radio luar dalem jos
-                        No.12 - 13, Kalideres - Jakarta Barat
-                        11480 - Indonesia
-                    </p>
-                    <p class="phone-txt">
-                        (+62) 21-2224 3333
-                    </p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="news-top"></div>
+                    <div class="newsletter-left">
+                        <img class="footerlogo" src="images/Logo-Assistor.png" />
+                        <p class="right-txt">
+                            orem quis bibendum auctor, nisi elit
+                            consequat ipsum, nec sagittis sem nibh elit.
+                            Duis sed odio sit amet auctror a ornare odio
+                            non mauris vitae erat in elit
+                        </p>
+                    </div>
+                    <div class="newsletter-center">
+                        <img class="ourstudio" src="images/footer/OURSTUDIO-Assistor.png" />
+                        <img class="locationicon" src="images/footer/big104-Assistor.png" />
+                        <img class="phoneicon" src="images/footer/phone351-Assistor.png" />
+                        <div class="newsletter-txt">
+                            <p class="location-txt">
+                                Ruko cucruk, Jl. Radio luar dalem jos
+                                No.12 - 13, Kalideres - Jakarta Barat
+                                11480 - Indonesia
+                            </p>
+                            <p class="phone-txt">
+                                (+62) 21-2224 3333
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="newsletter-right">
+                        <img class="stayintouch" src="images/footer/STAYINTOUCH.png" />
+                        <div class="subscribe">
+                            <input type="text" class="subscribe-newsletter" placeholder=" Subscribe our newsletter" enabled />
+                            <input type="image" src="images/footer/subcribe-Btn-Assistor.png" />
+
+                        </div>
+                        <div class="social-media">
+                            <a href="#1"><i></i></a>
+                            <a href="#2"><i></i></a>
+                            <a href="#1"><i></i></a>
+                            <a href="#1"><i></i></a>
+                            <a href="#1"><i></i></a>
+                            <a href="#1"><i></i></a>
+                        </div>
+                    </div>
+
+                    <div class="newsletter-bottom">
+                        <input class="help" type="image" src="images/footer/HELP-Assistor.png" />
+                        <input class="copyright" type="image" src="images/footer/Copyright-Assistor.png" />
+                    </div>
                 </div>
             </div>
-
-            <div class="newsletter-right">
-                <img class="stayintouch" src="images/footer/STAYINTOUCH.png" />
-                <div class="subscribe">
-                    <input type="text" class="subscribe-newsletter" placeholder=" Subscribe our newsletter" enabled />
-                    <input type="image" src="images/footer/subcribe-Btn-Assistor.png" />
-
-                </div>
-                <div class="social-media">
-                    <a href="#1"><i></i></a>
-                    <a href="#2"><i></i></a>
-                    <a href="#1"><i></i></a>
-                    <a href="#1"><i></i></a>
-                    <a href="#1"><i></i></a>
-                    <a href="#1"><i></i></a>
-                </div>
-            </div>
-
-            <div class="newsletter-bottom">
-                <input class="help" type="image" src="images/footer/HELP-Assistor.png" />
-                <input class="copyright" type="image" src="images/footer/Copyright-Assistor.png" />
-            </div>
-
         </div>
 
     </footer>
-    <script src="js/jquery-1.12.3.js"></script> <!--通常放在</body>的上面 因為網頁是由上往下讀取 先讀取整個頁面 再讀取js文件 避免網頁空白-->
-    <script src="js/validate/jquery.validate.js"></script>
-    <script src="js/validate/additional-methods.js"></script>
-    <script src="js/validate/localization/messages_zh_TW.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> <!--圖片輪播套件-->
-    <script src="js/menu.js"></script>
-    <div id="gotop">Back</div>
-    <link href="styles/gotop.css" rel="stylesheet" />
 
 
+            <script src="js/jquery-1.12.3.js"></script> <!--通常放在</body>的上面 因為網頁是由上往下讀取 先讀取整個頁面 再讀取js文件 避免網頁空白-->
 
+
+            <!--表單驗證使用套件-->
+            <script src="validate/jquery.validate.js"></script>
+            <script src="validate/additional-methods.js"></script>
+            <script src="validate/messages_zh_TW.js"></script>
+            <!--表單驗證使用套件-->
+
+            <!--圖片輪播套件-->
+            <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+             <!--圖片輪播套件-->
+
+            <!--navbar效果-->
+            <script src="js/menu.js"></script>
+            <div id="gotop">︿</div>
+            <link href="styles/gotop.css" rel="stylesheet" />
+            <!--navbar效果-->
+
+            <!--RWD效果-->
+            <script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+
+            <!--RWD效果-->
 
 </body>
 </html>

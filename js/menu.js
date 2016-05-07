@@ -89,7 +89,7 @@ $(function () {
                     Message: { required: true }
                 },
                 messages: {
-                    Name: { maxlength: "姓名請勿超過七個子" },
+                    Name: { maxlength: "姓名請勿超過七個字" },
                     Email: { required: "請留下email", email: "格式錯誤" },
                     Subject: { required: "給個標題好不" },
                     Message: { required: "留點有意義的話吧" }
