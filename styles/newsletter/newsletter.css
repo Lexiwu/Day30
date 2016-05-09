@@ -1,0 +1,113 @@
+﻿body .newsletter {
+  height: 400px;
+  position: relative;
+  background-image: url("../../images/footer/footer-background-Assistor.jpg"); }
+
+body .newsletter-left {
+  height: 200px;
+  width: 285px;
+  position: absolute;
+  top: 70px;
+  left: 331px;
+  color: #FFF;
+  font-size: 13px;
+  line-height: 2em;
+  z-index: 2; }
+
+body .right-txt {
+  text-align: left; }
+
+body .newsletter-center {
+  height: 200px;
+  width: 283px;
+  position: absolute;
+  top: 90px;
+  left: 650px;
+  color: #FFF;
+  font-size: 13px;
+  z-index: 2; }
+
+body .newsletter-txt {
+  width: 237px;
+  height: auto;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  text-align: left;
+  line-height: 2em; }
+
+body .ourstudio {
+  position: absolute; }
+
+body .locationicon {
+  position: absolute;
+  top: 45px; }
+
+body .phoneicon {
+  position: absolute;
+  top: 135px; }
+
+body .newsletter-right {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 90px;
+  left: 970px;
+  color: #FFF;
+  font-size: 13px;
+  z-index: 2; }
+  body .newsletter-right input:enabled {
+    background: none; }
+
+body .stayintouch {
+  position: absolute; }
+
+body .subscribe {
+  position: absolute;
+  top: 50px; }
+
+body .subscribe-newsletter {
+  height: 40px;
+  width: 211px;
+  position: relative;
+  top: -19px;
+  border: solid #FFF 1px;
+  color: #FFF; }
+
+body .social-media {
+  position: absolute;
+  top: 130px;
+  height: 45px;
+  width: 300px; }
+  body .social-media a i {
+    margin-right: 5px;
+    height: 35px;
+    width: 35px;
+    display: inline-block; }
+  body .social-media a:nth-child(1) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 0; }
+  body .social-media a:nth-child(2) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -45px; }
+  body .social-media a:nth-child(3) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -90px; }
+  body .social-media a:nth-child(4) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -135px; }
+  body .social-media a:nth-child(5) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -180px; }
+  body .social-media a:nth-child(6) i {
+    background-image: url("../../images/footer/social media/result.png");
+    background-position: 0 -225px; }
+
+body .newsletter-bottom {
+  position: absolute;
+  bottom: 69px;
+  left: 332px;
+  z-index: 2; }
+  body .newsletter-bottom input {
+    margin-right: 330px; }
+

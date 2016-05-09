@@ -1,0 +1,35 @@
+﻿body {
+    .vedioplay{
+        height:550px;
+        background-image: url('../../images/vedio/vediobackground-Assistor.png');
+        position:relative;
+
+
+    }
+
+    .vedio-zone{
+        position:absolute;
+        top:205px;
+        left:455px;
+        width:180px;
+        height:150px;
+        z-index:2;
+    }
+
+   /* .playicon{
+        position:relative;
+        top:205px;
+        left:745px;
+    }*/
+
+    .vedio-txt{
+        position:relative;
+        top:30px;
+        left:-23px;
+        margin:0;
+        color:#FFF;
+
+    }
+
+
+}

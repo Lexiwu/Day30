@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <input type="button" value="CLICK" onclick="postTest()" />
+    <div id="result"></div>
+    <script src="js/jquery-1.12.3.js"></script>
+
+    <script>
+        function postTest() {
+            $.ajaxSetup({
+                contentType: "application/json; charset=utf-8"
+            });
+
+            var questinfo={
+                name:"隔壁的阿基師",
+                gender:"Male",
+                id:"no.123456"
+            };
+
+            var result=document.getElementById('result');
+            var convertdata = JSON.stringify(questinfo);
+            $.post("http://localhost/myAPI/api/MyAPI", convertdata,
+                function (data) {
+                result.innerHTML = data;
+            })
+                
+                //.done(function(data){
+                //    result.innerHTML=data;}  )
+
+        }
+
+
+    </script>
+</body>
+</html>

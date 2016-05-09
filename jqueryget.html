@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <script src="js/jquery-1.12.3.js"></script>
+
+    <input type="button" value="click" onclick="getdata()" />
+    <div id="result">   </div>
+
+    <script>
+        function getdata() {
+            var result = document.getElementById('result');
+            $.get('http://localhost/myweb/index.html#learnmore')
+            .done(function (data) {
+                alert('GET');
+                console.log(data);
+                result.innerHTML = data;
+            })
+
+
+        }
+
+
+    </script>
+</body>
+</html>

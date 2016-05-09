@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+   
+</head>
+<body>
+    <input id="keyword" type="text" placeholder="請輸入要搜尋的內容" />
+    <input type="button" value="GO" onclick="search();"/>
+    <div id="result">
+
+    </div>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script>
+        //搜尋功能 - 當我按下GO按鈕
+       
+        //2.透過$.get加上Querystring q={keyword} 
+        //3.將回傳的內容填入div result 
+        function search() {
+            //1.先取得keyword的內容
+            var keyword = document.getElementById('keyword').value;
+            var result = document.getElementById('result');
+            //https://www.google.com.tw?q=美國隊長
+            //2.透過$.get加上Querystring q={keyword} 取回我查詢的keyword內容
+            $.get("http://localhost/myAPI/api/MyAPI?q=" + keyword,
+                function (data) {
+                    //3.將回傳的內容填入div result 
+                    result.innerHTML = "<h1>"+data+"</h1>";
+            });
+           
+        }
+    </script>
+</body>
+</html>

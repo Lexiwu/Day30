@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <input type="button" value="請按我" onclick="submitJSON()" />
+    <div id="result"></div>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script>
+        function submitJSON() {
+            $.ajaxSetup({
+                contentType: "application/json; charset=utf-8"
+            });
+            var studentInfo = {
+                Name: "隔壁的小民",
+                Gender: "男",
+                ID:"1000000"
+            }; // {Name: "隔壁的小民", Gender: "男",ID:"1000000"}
+            var result = document.getElementById("result");
+            console.log(studentInfo);
+            console.log(JSON.stringify(studentInfo));
+            $.post("http://localhost/myAPI/api/MyAPI",
+                JSON.stringify(studentInfo) )
+            .done(function (data) {
+                result.innerHTML = data;
+            }).fail(function (data) {
+                result.innerHTML = data;
+                console.log(data);
+            })
+       
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+﻿[
+  {
+    "outputFile": "styles/StyleSheet.css",
+    "inputFile": "styles/StyleSheet.scss"
+  },
+  {
+    "outputFile": "styles/index-layout.css",
+    "inputFile": "styles/index-layout.scss"
+  },
+  {
+    "outputFile": "styles/navbar.css",
+    "inputFile": "styles/navbar.scss"
+  },
+  {
+    "outputFile": "styles/top-background.css",
+    "inputFile": "styles/top-background.scss"
+  },
+  {
+    "outputFile": "styles/story.css",
+    "inputFile": "styles/story.scss"
+  },
+  {
+    "outputFile": "styles/playvedio.css",
+    "inputFile": "styles/playvedio.scss"
+  },
+  {
+    "outputFile": "styles/expertise.css",
+    "inputFile": "styles/expertise.scss"
+  },
+  {
+    "outputFile": "styles/team.css",
+    "inputFile": "styles/team.scss"
+  },
+  {
+    "outputFile": "styles/work.css",
+    "inputFile": "styles/work.scss"
+  },
+  {
+    "outputFile": "styles/testimonials/testimonials.css",
+    "inputFile": "styles/testimonials/testimonials.scss"
+  },
+  {
+    "outputFile": "styles/expertise/expertise.css",
+    "inputFile": "styles/expertise/expertise.scss"
+  },
+  {
+    "outputFile": "styles/navbar/navbar.css",
+    "inputFile": "styles/navbar/navbar.scss"
+  },
+  {
+    "outputFile": "styles/navbar/story.css",
+    "inputFile": "styles/navbar/story.scss"
+  },
+  {
+    "outputFile": "styles/navbar/top-background.css",
+    "inputFile": "styles/navbar/top-background.scss"
+  },
+  {
+    "outputFile": "styles/team/team.css",
+    "inputFile": "styles/team/team.scss"
+  },
+  {
+    "outputFile": "styles/vedio/playvedio.css",
+    "inputFile": "styles/vedio/playvedio.scss"
+  },
+  {
+    "outputFile": "styles/work/work.css",
+    "inputFile": "styles/work/work.scss"
+  },
+  {
+    "outputFile": "styles/contact/contact.css",
+    "inputFile": "styles/contact/contact.scss"
+  },
+  {
+    "outputFile": "styles/newsletter/newsletter.css",
+    "inputFile": "styles/newsletter/newsletter.scss"
+  },
+  {
+    "outputFile": "styles/ttop.css",
+    "inputFile": "styles/ttop.scss"
+  },
+  {
+    "outputFile": "styles/navbar/onthetop.css",
+    "inputFile": "styles/navbar/onthetop.scss"
+  },
+  {
+    "outputFile": "styles/navbar/ttop.css",
+    "inputFile": "styles/navbar/ttop.scss"
+  },
+  {
+    "outputFile": "styles/vedio/vedio-top.css",
+    "inputFile": "styles/vedio/vedio-top.scss"
+  },
+  {
+    "outputFile": "styles/team/team-top.css",
+    "inputFile": "styles/team/team-top.scss"
+  },
+  {
+    "outputFile": "styles/testimonials/test-top.css",
+    "inputFile": "styles/testimonials/test-top.scss"
+  },
+  {
+    "outputFile": "styles/newsletter/news-top.css",
+    "inputFile": "styles/newsletter/news-top.scss"
+  },
+  {
+    "outputFile": "styles/gotop.css",
+    "inputFile": "styles/gotop.scss"
+  }
+]

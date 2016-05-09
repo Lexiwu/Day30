@@ -1,0 +1,19 @@
+﻿body {
+
+    .v-top{
+    height:550px;
+    width:1600px;
+    background: -webkit-linear-gradient(left,rgb(80,63,118),rgb(46,42,78)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,rgb(80,63,118),rgb(46,42,78)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,rgb(80,63,118),rgb(46,42,78)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,rgb(80,63,118),rgb(46,42,78)); /* Standard syntax (must be last) */
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+   }
+
+
+}

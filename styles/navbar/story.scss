@@ -1,0 +1,49 @@
+﻿body {
+    .story{
+        background-color:#FFF;
+        height:331px;
+        width:auto;
+        position:relative;
+
+    }
+     .story-title{
+                color:#000;
+                font-size:22px;
+                position: relative;
+                top:50px;
+                text-align:center;
+                margin:0;
+        }
+     .story-txt{
+         position:relative;
+         top:60px;
+         left:508px;
+         font-size:12px;
+     }
+
+     .learnmore2{
+         height:40px;
+         width:150px;
+         position:relative;
+         top:220px;
+         left:-175px;
+     }
+     .biglogo{
+         position:absolute;
+         top:40px;
+         left:350px;
+     }
+
+     .morestory{
+       display:none;
+        background-color:#FFF;
+        height:131px;
+        width:auto;
+        position:relative;
+        p{
+            margin:0;
+            text-align:center;
+        }
+
+     }
+}

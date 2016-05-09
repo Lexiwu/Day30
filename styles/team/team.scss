@@ -1,0 +1,58 @@
+﻿$team-font-size : 23px;
+$team-font-color:#FFF;
+body {
+    .team{
+        height:712px;
+        background-image: url('../../images/team/team-background-Assistor.png');
+        position:relative;
+
+    }
+
+        .team-txt{
+        height:580px;
+        position:relative;
+        top:60px;
+        text-align:center;
+        z-index:2;
+    }
+        .team-title{
+            margin:0;
+            font-size:23px;
+            color:$team-font-color;
+        }
+        .tetxt{
+            margin-top:0;
+            position:relative;
+            top:10px;
+            color:$team-font-color;
+            
+        }
+
+        .pic4{
+            position:absolute;
+            top:120px;
+            img{
+                margin:0 5px;
+            }
+        }
+        .hire{
+            position:relative;
+            top:100px;
+            color:$team-font-color;
+        }
+
+        .team11{
+            height:40px;
+        }
+        .team12{
+            height:40px;
+        }
+
+       .team13{
+            height:40px;
+        }
+
+       .team14{
+            height:40px;
+        }
+}

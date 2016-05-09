@@ -1,0 +1,121 @@
+﻿$newsletter-font-size : 13px;
+$newsletter-font-color:#FFF;
+$footer-line-height:2em;
+
+body {
+    .newsletter{   //whole area set-up
+        height:400px;
+        position:relative;
+
+        background-image: url('../../images/footer/footer-background-Assistor.jpg');
+    }
+
+    .newsletter-left{  // whole left area set-up
+        height:200px;
+        width:285px;
+        position:absolute;
+        top:70px;
+        left:331px;
+        color:$newsletter-font-color;
+        font-size:$newsletter-font-size;
+        line-height:$footer-line-height;
+        z-index:2;
+    }
+    .right-txt{     
+       text-align:left;
+    }
+    .newsletter-center{   // whole center area set-up
+        height:200px;
+        width:283px;
+        position:absolute;
+        top:90px;
+        left:650px;
+        color:$newsletter-font-color;
+        font-size:$newsletter-font-size;
+        z-index:2;
+    }
+    .newsletter-txt{   // center area text set-up
+        width:237px;
+        height:auto;
+        position:absolute;
+        left:30px;
+        top:30px;
+        text-align:left;
+        line-height:$footer-line-height;
+    }
+    .ourstudio{      // center-area tittle set-up
+        position:absolute;
+      
+    }
+    .locationicon{  // center-area location icon set-up
+        position:absolute;
+        top:45px;
+    }
+    .phoneicon{    // center-area phone icon set-up
+        position:absolute;
+        top:135px;
+    }
+
+    .newsletter-right{   // whole right-area set-up
+        height:200px;
+        width:300px;
+        position:absolute;
+        top:90px;
+        left:970px;
+        color:$newsletter-font-color;
+        font-size:$newsletter-font-size;
+        z-index:2;
+        input:enabled {   //.newletter-right底下有標註enabled的input背景為透明
+        background: none;}
+    }
+
+    .stayintouch{      // right-area tittle icon set-up
+        position:absolute;
+      
+    }
+    .subscribe{      // right-area subscribe icon set-up
+        position:absolute;
+        top:50px;
+    }
+    .subscribe-newsletter{
+        height:40px;
+        width:211px;
+        position:relative;
+        top:-19px;
+        border: solid #FFF 1px;
+        color:#FFF;
+         
+    }
+    .social-media{   //right-area social media icon set-up
+        position:absolute;
+        top:130px;
+        height:45px;
+        width:300px;
+      a {                   //利用sprites將很多小圖合併成一張大圖，用&:nth-child()選取指定位置 
+           i{               // 可減少圖片載入次數
+             margin-right:5px;
+             height:35px;width:35px;
+             display:inline-block;
+             }
+            &:nth-child(1) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 0;}
+            &:nth-child(2) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -45px;}
+            &:nth-child(3) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -90px;}
+            &:nth-child(4) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -135px;}
+            &:nth-child(5) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -180px;}
+            &:nth-child(6) i{background-image: url('../../images/footer/social media/result.png');background-position: 0 -225px;}
+        }
+
+        
+    }
+
+    .newsletter-bottom{
+        position:absolute;
+        bottom:69px;
+        left:332px;
+        z-index:2;
+        input{
+            margin-right:330px;
+        }
+    }
+    
+}
