@@ -1,4 +1,5 @@
-﻿body {
+﻿@charset "UTF-8";
+body {
   /* .button1{
             position:absolute;
             top:423px;
@@ -13,7 +14,7 @@
     left: 0;
     z-index: 0; }
   body .navbar {
-    height: 86px;
+    /*height:86px;  //navbar的高度*/
     /*width:1600px;*/
     z-index: 2; }
   body .logo {
@@ -22,11 +23,11 @@
             left:331px;*/
     z-index: 2; }
   body .learnmore {
-    width: 120px;
-    height: 40px;
-    position: relative;
-    top: 80px;
-    margin: auto;
+    /*/*width:120px;
+            height:40px;
+            position:relative;
+            top:80px;*/
+    margin-top: 150px;
     z-index: 2; }
   body .dotnav {
     position: relative;
@@ -57,13 +58,14 @@
   body #active {
     color: aqua; }
   body .main {
-    height: 372px;
+    /*height: 372px;*/
     /*width: 771px;*/
     position: relative;
-    top: 183px;
-    left: 0;
+    /*top: 183px;*/
+    /*left: 0;*/
     z-index: 2;
-    margin: 0 auto; }
+    margin-top: 200px;
+    margin-bottom: 45px; }
   body .middle-text {
     color: #FFF;
     font-size: 32px;
@@ -79,4 +81,7 @@
     text-align: center;
     margin: 0;
     z-index: 2; }
+  body .button1 {
+    position: relative;
+    left: 25px; }
 

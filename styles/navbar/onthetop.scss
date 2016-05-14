@@ -10,7 +10,7 @@
     }
 
     .navbar{
-        height:86px;  //navbar的高度
+        /*height:86px;  //navbar的高度*/
         /*width:1600px;*/
         z-index:2;
 
@@ -22,11 +22,11 @@
             z-index:2;
         }
         .learnmore{
-            width:120px;
+            /*/*width:120px;
             height:40px;
             position:relative;
-            top:80px;
-            margin:auto;
+            top:80px;*/
+            margin-top:150px;
             z-index:2;
 
         }
@@ -74,13 +74,14 @@
         }
 
         .main{        
-            height: 372px;
+            /*height: 372px;*/
             /*width: 771px;*/
             position: relative;
-            top: 183px;
-            left: 0;
+            /*top: 183px;*/
+            /*left: 0;*/
             z-index:2;
-            margin: 0 auto; 
+            margin-top: 200px;
+            margin-bottom:45px; 
         }
 
         .middle-text{
@@ -103,6 +104,11 @@
             text-align:center;
             margin:0;
             z-index:2;
+        }
+
+        .button1{
+            position:relative;
+            left:25px;
         }
 }
 
