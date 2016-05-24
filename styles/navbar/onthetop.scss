@@ -10,32 +10,28 @@
     }
 
     .navbar{
-        /*height:86px;  //navbar的高度*/
-        /*width:1600px;*/
+        height:86px;  //navbar的高度
+        width:1600px;
         z-index:2;
 
     }
         .logo{
             position:relative;
-            /*top:36px;
-            left:331px;*/
+            top:36px;
+            left:331px;
             z-index:2;
         }
         .learnmore{
-            /*/*width:120px;
+            width:120px;
             height:40px;
             position:relative;
-            top:80px;*/
-            margin-top:150px;
+            top:80px;
+            margin:auto;
             z-index:2;
 
         }
 
-        /* .button1{
-            position:absolute;
-            top:423px;
-            left:740px;
-        } */
+
          .dotnav{
             position:relative;
             top:70px;
@@ -46,8 +42,8 @@
         ul {
             list-style-type: none;
             position:absolute;
-            /*top:45px;
-            right:500px;*/
+            top:45px;
+            right:500px;
             overflow: hidden;
             margin:0;
             padding:0;
@@ -106,10 +102,7 @@
             z-index:2;
         }
 
-        .button1{
-            position:relative;
-            left:25px;
-        }
+  
 }
 
 

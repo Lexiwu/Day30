@@ -22,8 +22,7 @@ body .tetxt {
   color: #FFF; }
 
 body .pic4 {
-  position: absolute;
-  top: 120px; }
+  position: relative; }
   body .pic4 img {
     margin: 0 5px; }
 

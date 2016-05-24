@@ -18,11 +18,10 @@ $(function () {
         }
     });
 
+
+
     //1.先讓按鈕有按下然後執行內容的效果
-    $('#menu-about').click(function () {
-        //2.利用animate移到到指定的區塊
-        $('html,body').animate({ scrollTop: $('.vedioplay').offset().top }, 800);
-    });
+    border - radius
 
     $('#menu-teams').click(function () {
         $('html,body').animate({ scrollTop: $('.team').offset().top }, 800);
