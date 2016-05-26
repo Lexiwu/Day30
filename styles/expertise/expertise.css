@@ -1,30 +1,29 @@
-﻿body .expertise {
-  background-image: url("../../images/expertise/Ebackground-Assistor.jpg");
-  position: relative;
-  height: 755px; }
-
-body .ex-text {
-  height: 580px;
-  position: relative;
-  top: 60px;
-  text-align: center; }
-
-body .ex-title {
-  font-size: 23px;
-  margin: 0; }
-
-body .extxt {
-  margin-top: 0;
-  position: relative;
-  top: 10px; }
-
-body .separator {
-  display: block;
-  position: absolute;
-  top: 70px;
-  left: 775px; }
-
-body .item {
-  position: relative;
-  top: 50px; }
+﻿body {
+  /*.separator{
+        display:block;
+        position:absolute;
+        top:70px;
+        left:775px;
+    }*/ }
+  body .expertise {
+    background-image: url("../../images/expertise/Ebackground-Assistor.jpg");
+    position: relative;
+    height: 755px; }
+  body .ex-text {
+    height: 580px;
+    position: relative;
+    top: 60px;
+    text-align: center; }
+  body .ex-title {
+    font-size: 23px;
+    margin: 0; }
+  body .extxt {
+    margin-top: 0;
+    position: relative;
+    top: 10px; }
+  body .item {
+    position: relative;
+    top: 50px; }
+  body .exper11 {
+    height: 50px; }
 

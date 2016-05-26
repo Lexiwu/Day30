@@ -9,18 +9,18 @@
 
     .vedio-zone{
         position:absolute;
-        top:205px;
-        left:745px;
-        width:160px;
+        top:200px;
+        right:665px;
+        width:180px;
         height:150px;
         z-index:2;
     }
 
-   /* .playicon{
+    .playicon{
         position:relative;
-        top:205px;
-        left:745px;
-    }*/
+        /*top:205px;
+        left:745px;*/
+    }
 
     .vedio-txt{
         position:relative;
@@ -29,6 +29,11 @@
         margin:0;
         color:#FFF;
 
+    }
+
+    .my-video{
+        position:relative;
+        left:320px;
     }
 
 

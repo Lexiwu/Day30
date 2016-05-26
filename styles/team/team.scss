@@ -30,7 +30,7 @@ body {
 
         .pic4{
             position:relative;
-            top:50px;
+            
             img{
                 margin:0 5px;
             }
@@ -39,5 +39,20 @@ body {
             position:relative;
             top:100px;
             color:$team-font-color;
+        }
+
+        .team11{
+            height:40px;
+        }
+        .team12{
+            height:40px;
+        }
+
+       .team13{
+            height:40px;
+        }
+
+       .team14{
+            height:40px;
         }
 }

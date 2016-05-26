@@ -22,8 +22,7 @@ body .tetxt {
   color: #FFF; }
 
 body .pic4 {
-  position: relative;
-  top: 50px; }
+  position: relative; }
   body .pic4 img {
     margin: 0 5px; }
 
@@ -31,4 +30,16 @@ body .hire {
   position: relative;
   top: 100px;
   color: #FFF; }
+
+body .team11 {
+  height: 40px; }
+
+body .team12 {
+  height: 40px; }
+
+body .team13 {
+  height: 40px; }
+
+body .team14 {
+  height: 40px; }
 
