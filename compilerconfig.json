@@ -106,5 +106,9 @@
   {
     "outputFile": "styles/gotop.css",
     "inputFile": "styles/gotop.scss"
+  },
+  {
+    "outputFile": "styles/slick-theme.css",
+    "inputFile": "styles/slick-theme.scss"
   }
 ]

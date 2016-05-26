@@ -94,6 +94,7 @@ $(function () {
                     Subject: { required: "給個標題好不" },
                     Message: { required: "留點有意義的話吧" }
                 }
+
             });
 
             if ($("#myform").valid()) {
@@ -129,9 +130,38 @@ $(function () {
                  })
             } else return false;
         });//.sub-buttom click ending
+    
 
 
+    /////// newsletter add email info
 
+        $('.newsltter-btn').click(function () {
+
+            var validator = $("#newsletter-form").validate({
+                rules: {                
+                    newsletter_email: { required: true, email: true }                    
+                },
+                messages: {                    
+                    newsletter_email: { required: "請留下email", email: "格式錯誤" }                   
+                },
+                errorPlacement: function (error, element) {
+                    error.appendTo(".error-message");
+                }
+            });
+
+            if ($("#newsletter-form").valid()) {
+                $.ajaxSetup({ contentType: "application/json;charset=utf-8" });
+                var news_Email = $(".subscribe-newsletter").eq(0).val();                   
+                var newsInfo = {                                                
+                    Email: clientEmail                    
+                };                
+                var data_info = JSON.stringify(newsInfo);                       
+                $.post("http://localhost/myapi/api/myapi", data_info)  
+                 .done(function (client_info) {
+                     alert('新增資料成功!!');
+                 })
+            } else return false;
+        });
        
     
     

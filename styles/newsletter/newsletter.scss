@@ -84,7 +84,7 @@ body {
         top:-19px;
         border: solid #FFF 1px;
         color:#FFF;
-         
+        padding-left:5px;
     }
     .social-media{   //right-area social media icon set-up
         position:absolute;
@@ -117,5 +117,12 @@ body {
             margin-right:330px;
         }
     }
+
+.error-message{
+    position:relative;
+    top:-10px;
+}
+
+
     
 }

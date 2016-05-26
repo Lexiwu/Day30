@@ -21,24 +21,13 @@
     <link href="styles/newsletter/news-top.css" rel="stylesheet" />
     <link href="styles/newsletter/newsletter.css" rel="stylesheet" />
 
-    <!--carousel effect-->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css" />
-
+    <link href="styles/slick.css" rel="stylesheet" />
+    <link href="styles/slick-theme.css" rel="stylesheet" />
     <!--// START Add the new slick-theme.css if you want the default styling-->
     <!--<link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />-->
     <!--// END  Add the new slick-theme.css if you want the default styling-->
 
-    <style>
-        .slick-dots {
-            z-index: 999;
-        }
-
-
-        
-    </style>
 
 
 </head>
@@ -49,7 +38,7 @@
             <div class="ttop"></div>
             <div class="navbar">
                 <img class="logo" src="images/Logo-Assistor.png">
-                <ul>
+                <ul class="top-navbar">
                     <li><a id="active" href="#home">Home</a></li>
                     <li><a id="menu-about" href="#about">About</a></li>
                     <li><a id="menu-teams" href="#teams">Teams</a></li>
@@ -91,7 +80,7 @@
 
                 <div class="learnmore">
                     <a class="button1" href="#learnmore"><img src="images/Button-Assistor.png" /> </a>
-                    <img class="dotnav" src="images/Dotnav-Assistor.png" /><br />
+                    
                 </div>
 
             </div>
@@ -242,6 +231,7 @@
                     <input class="information" type="text" placeholder="Email"  name="Email" /><br>
                     <input class="information" type="text" placeholder="Subject"  name="Subject"/><br>
                     <textarea class="info-mes" type="text" placeholder="Your Message"  name="Message"></textarea>
+                    <br />
                     <input class="sub-buttom" type="image" src="images/contact/submitbutton-Assistor.png" />
                 </div>
             </form>
@@ -278,10 +268,14 @@
             <div class="newsletter-right">
                 <img class="stayintouch" src="images/footer/STAYINTOUCH.png" />
                 <div class="subscribe">
-                    <input type="text" class="subscribe-newsletter" placeholder=" Subscribe our newsletter" enabled />
-                    <input type="image" src="images/footer/subcribe-Btn-Assistor.png" />
+                    <form id="newsletter-form">
+                        <input type="text" class="subscribe-newsletter" placeholder="Subscribe our newsletter" name="newsletter_email" />                       
+                        <input type="image" class="newsltter-btn" src="images/footer/subcribe-Btn-Assistor.png" />
+                        <span class="error-message"></span>
+                    </form>
+                        
 
-                </div>
+                 </div>
                 <div class="social-media">
                     <a href="#1"><i></i></a>
                     <a href="#2"><i></i></a>

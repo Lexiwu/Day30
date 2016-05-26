@@ -72,7 +72,8 @@ body .subscribe-newsletter {
   position: relative;
   top: -19px;
   border: solid #FFF 1px;
-  color: #FFF; }
+  color: #FFF;
+  padding-left: 5px; }
 
 body .social-media {
   position: absolute;
@@ -110,4 +111,8 @@ body .newsletter-bottom {
   z-index: 2; }
   body .newsletter-bottom input {
     margin-right: 330px; }
+
+body .error-message {
+  position: relative;
+  top: -10px; }
 
