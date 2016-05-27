@@ -11,19 +11,10 @@ body .vedio-zone {
   height: 150px;
   z-index: 2; }
 
-body .playicon {
-  position: relative;
-  /*top:205px;
-        left:745px;*/ }
-
 body .vedio-txt {
   position: relative;
   top: 30px;
   left: -23px;
   margin: 0;
   color: #FFF; }
-
-body .my-video {
-  position: relative;
-  left: 320px; }
 
